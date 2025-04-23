@@ -1,0 +1,12 @@
+f=open('myfile.txt','r')
+s=open('myfile.txt','w')
+text=f.read()
+value=s.write()
+f.read("salaam army")
+s.write(46)
+print(text)
+print(value)
+f.close()
+s.close()
+with open('myfile.txt',s) as f:
+s.write("hey iam")
